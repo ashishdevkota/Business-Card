@@ -62,6 +62,11 @@ body {
 .email-btn {
   margin-right: 10px;
   color: #333;
+  background-color: #fff;
+}
+.email-btn:hover {
+  background-color: hsl(0, 0%, 80%);
+  color: #111;
 }
 .fa-envelope,
 .linkedin {
@@ -70,6 +75,9 @@ body {
 }
 .linkedin {
   background: #5093e2;
+}
+.linkedin:hover {
+  background: hsl(212, 72%, 40%);
 }
 
 /* about section  */
